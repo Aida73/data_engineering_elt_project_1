@@ -42,7 +42,6 @@ graph TD
     A[Generate Fake Sales Data] --> B[Upload to GCS]
     B --> C[Load to BigQuery]
     C --> D[Transform in BigQuery]
-
 ---
 
 
