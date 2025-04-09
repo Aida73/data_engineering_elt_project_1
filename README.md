@@ -42,8 +42,9 @@ graph TD
     A[Generate Fake Sales Data] --> B[Upload to GCS]
     B --> C[Load to BigQuery]
     C --> D[Transform in BigQuery]
----
+```
 
+---
 
 ## 📁 Project Structure
 ```bash
@@ -51,6 +52,8 @@ graph TD
     └── gcp_elt_pipeline.py   
     README.md                 
 ```
+
+---
 
 ## ⚙️ Configuration
 This DAG pulls project variables from Airflow Variables. You can set them via Airflow UI or CLI:
